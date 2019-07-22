@@ -10,4 +10,6 @@ openssl genrsa -out private.pem 1024 //密钥长度，1024觉得不够安全的�
 openssl rsa -in private.pem -pubout -out public.pem
 
 
+#椭圆曲线介绍
 
+http://blog.51cto.com/11821908/2057726
